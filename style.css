@@ -138,10 +138,25 @@ p {
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+/* O rodinné terapii */
+
+#terapie {
+    background: rgb(72,139,167)
+}
+
+#terapie p {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#terapie h2 {
+    padding-top: 30px;
+}
+
 /* O mě */
 
 #about-me {
-    background: rgb(171, 228, 223);
+    background: rgb(240,224,208);
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -185,7 +200,7 @@ p {
 }
 
 .references {
-    border-left: 2px solid rgb(128, 31, 9);
+    border-left: 2px solid rgb(139,72,38);
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -206,7 +221,7 @@ p {
 /* Sociální sítě */
 
 #social-media {
-    background: rgb(229, 213, 233);
+    background: rgb(72,139,167);
     padding: 100px 0;
 }
 
@@ -234,7 +249,7 @@ p {
 
 /* Patička */
 #footer {
-    background-color: rgb(136, 20, 12);
+    background-color: rgb(8,51,80);
     color: white;
 }
 
