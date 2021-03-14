@@ -14,12 +14,15 @@ p {
 
 .container {
     padding-right: 30px !important;
+    position: relative;
+    overflow: hidden;
 }
 
 /* Menu + logo */
 
 #nav-bar {
-    position: sticky;
+    position: absolute;
+    /* position: sticky; */
     top: 0;
     z-index: 10;
 }
