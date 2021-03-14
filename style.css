@@ -5,7 +5,11 @@
 }
 
 body {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Merienda', cursive !important;
+}
+
+p {
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .container {
@@ -56,14 +60,14 @@ body {
 
 #banner {
     background-size: cover;
-    color: rgb(199, 211, 226);
+    color: rgb(225, 230, 237);
     padding-top: 5%;
     height: 100%;
 }
 
-.promo-title {
-    font-size: 40px;
-    font-weight: 400;
+.promo-title h1 {
+    font-size: 50px;
+    font-weight: 700;
     margin-top: 50px;
     line-height: 1.5;
     padding-top: 50px;
@@ -71,8 +75,9 @@ body {
 }
 
 .promo-title p{
-    font-size: 18px;
+    font-size: 25px;
     margin-top: 40px;
+    font-weight: 400;
 
 }
 
@@ -105,33 +110,22 @@ body {
 .services h4 {
     padding: 5px;
     margin-top: 25px;
-    text-transform: uppercase;
+ 
 }
 
 .title::before {
     content:'';
-    background-color: gray;
-    height: 5px;
+    background-color: rgb(42, 115, 116);
+    height: 3px;
     width: 200px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5px;
     display: block;
     transform: translateY(63px);
 
 }
 
-.title::after {
-    content:'';
-    background-color: gray;
-    height: 10px;
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    display: block;
-    transform: translateY(8px);
-
-}
 
 #services .btn-primary {
     box-shadow: none;
@@ -139,12 +133,13 @@ body {
     border: none;
     border-radius: 20px;
     background-image: linear-gradient(to right, rgb(165, 124, 124), rgb(41, 142, 209));
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 /* O mě */
 
 #about-me {
-    background: rgb(213, 213, 233);
+    background: rgb(171, 228, 223);
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -155,8 +150,13 @@ body {
     margin-top: 8%;
 }
 
+#about-me ul {
+    padding-top: 30px;
+}
+
 #about-me ul li {
     margin: 10px 0;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 
@@ -164,6 +164,7 @@ body {
     border-radius: 5%;
     max-height: 300px;
     border-radius: 50%;
+    margin-left: 100px;
     padding-right: 50px;
 
 }
@@ -182,9 +183,17 @@ body {
 }
 
 .references {
-    border-left: 4px solid rgb(41, 142, 209);
+    border-left: 2px solid rgb(128, 31, 9);
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.references p {
+    padding-top: 50px;
+}
+
+#references h2 {
+    padding-bottom: 50px;
 }
 
 .user-detail {
@@ -195,7 +204,7 @@ body {
 /* Sociální sítě */
 
 #social-media {
-    background: rgb(213, 213, 233);
+    background: rgb(229, 213, 233);
     padding: 100px 0;
 }
 
@@ -216,9 +225,14 @@ body {
     transform: translateY(-10px);
 }
 
+.social-title {
+    font-family: 'Merienda', cursive;
+    padding-bottom: 20px;
+}
+
 /* Patička */
 #footer {
-    background-color: rgb(4, 4, 58);
+    background-color: rgb(136, 20, 12);
     color: white;
 }
 
@@ -249,16 +263,18 @@ body {
     border-radius: 0;
     margin-top: 25px;
     text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
    
 }
 
 .footer-box .btn-primary {
     box-shadow: none !important;
     border: none;
-    border-radius: 0;
+    border-radius: 20px;
     margin-top: 25px;
     background-color: rgb(213, 213, 233);
     color: rgb(40, 39, 39);
+    font-family: 'Montserrat Alternates', sans-serif;
 
 }
 
