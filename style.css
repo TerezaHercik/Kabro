@@ -77,18 +77,21 @@ p {
     color: rgb(225, 230, 237);
     padding-top: 5%;
     width: 100%;
-    opacity: 80%;
+    height: 280px;
+    opacity: 0.8;
     z-index: -1;
+
 }
 
 
 .promo-title h1 {
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 600;
     margin-top: 15px;
-    line-height: 1.0;
+    line-height: 1.5;
     padding-top: 25px;
     text-align: center;
+    z-index: 3;
 
 }
 
@@ -96,7 +99,7 @@ p {
     font-size: 18px;
     margin-top: 30px;
     font-weight: 200;
-    line-height: 1.0;
+    line-height: 1.5;
     text-align: center;
 
 }
