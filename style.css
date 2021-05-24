@@ -15,11 +15,11 @@ body {
 
 p {
     font-family: 'Raleway', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 li {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 h3 {
@@ -173,11 +173,7 @@ h3 {
     font-size: 12px;
 }
 
-.card-img-top {
 
-    height: 50%;
-
-}
 
 
 #services .btn-primary {
@@ -368,9 +364,11 @@ hr {
 
 #footer p {
     font-size: 15px;
+    padding: 0px;
+    margin: auto;
 }
 
-/*Rozlišení pro zařízení se šířkou minimálně 768px*/
+/* Rozlišení pro zařízení se šířkou minimálně 768px */
 
 @media (min-width: 768px) {
     .navbar-brand img {
@@ -421,13 +419,29 @@ hr {
 
 .card {
     width: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: auto;
+    padding: 30px 0px 30px 30px;
     border: none !important;
 
 }
 
+.card-img {
+    margin: auto;
+}
+
+.card p {
+    font-size: 14px;
+}
+
 .card-text {
     font-size: 18px;
+}
+
+.card img {
+    max-width: 150px;
+}
+
+.footer {
+    text-align: center;
 }
 }
