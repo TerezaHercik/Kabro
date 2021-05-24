@@ -15,11 +15,20 @@ body {
 
 p {
     font-family: 'Raleway', sans-serif;
+    font-size: 12px;
 }
 
+li {
+    font-size: 12px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+
 .container {
-    padding-right: 30px !important;
-    padding-top: 30px;
     position: relative;
     overflow: hidden;
  
@@ -124,6 +133,7 @@ p {
 
 #block {
     text-align: justify;
+
 }
 
 .services-img {
@@ -154,14 +164,34 @@ p {
 
 }
 
+.card {
+    width: 70%;
+    margin: auto;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+.card-img-top {
+
+    height: 50%;
+
+}
+
 
 #services .btn-primary {
     box-shadow: none;
     padding: 8px 25px;
+    margin-top: 30px;
     border: none;
     border-radius: 20px;
     background-image: linear-gradient(to right, rgb(165, 124, 124), rgb(41, 142, 209));
     font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.open-paragraph {
+    margin-top: 50px;
 }
 
 
@@ -183,7 +213,7 @@ p {
 /* O mě */
 
 #about-me {
-    background: rgb(240,224,208);
+    background: rgb(230, 230, 229);
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -208,6 +238,11 @@ p {
     max-height: 300px;
     border-radius: 50%;
     margin-left: 0;
+}
+
+#block {
+    margin: auto;
+    padding: 0;
 }
 
 
@@ -305,7 +340,7 @@ p {
     border-radius: 0;
     margin-top: 25px;
     text-align: center;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Playfair Display', serif;
    
 }
 
@@ -316,7 +351,7 @@ p {
     margin-top: 25px;
     background-color: rgb(213, 213, 233);
     color: rgb(40, 39, 39);
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Playfair Display', serif;
 
 }
 
@@ -331,11 +366,24 @@ hr {
     text-align: center;
 }
 
+#footer p {
+    font-size: 15px;
+}
+
+/*Rozlišení pro zařízení se šířkou minimálně 768px*/
 
 @media (min-width: 768px) {
     .navbar-brand img {
         height: 120px;
         padding-left: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 18px;
     }
 
     .img {
@@ -371,4 +419,15 @@ hr {
     opacity: 100%;
 }
 
+.card {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: none !important;
+
+}
+
+.card-text {
+    font-size: 18px;
+}
 }
