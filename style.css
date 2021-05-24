@@ -19,6 +19,7 @@ p {
 
 .container {
     padding-right: 30px !important;
+    padding-top: 30px;
     position: relative;
     overflow: hidden;
  
@@ -162,6 +163,7 @@ p {
     background-image: linear-gradient(to right, rgb(165, 124, 124), rgb(41, 142, 209));
     font-family: 'Montserrat Alternates', sans-serif;
 }
+
 
 /* O rodinné terapii */
 
