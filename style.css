@@ -8,13 +8,12 @@ html { box-sizing: border-box; }
 }
 
 body {
-    font-family: 'Playfair Display', serif;
-    font-family: 'Raleway', sans-serif;
-  
+    font-family: 'Alegreya', serif;
 }
 
 p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
     font-size: 14px;
 }
 
@@ -22,8 +21,9 @@ li {
     font-size: 14px;
 }
 
-h3 {
-    font-family: 'Playfair Display', serif;
+h3, h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
 }
 
 
@@ -55,6 +55,7 @@ h3 {
 
 .navbar-nav li {
     padding: 0 11px;
+    font-family: 'Alegreya', serif;
 
 }
 
@@ -62,6 +63,15 @@ h3 {
     font-size: 22px;
     font-weight: 400;
 }
+
+.nav-link:hover {
+    background-color: rgb(115, 149, 150); 
+    color: white; 
+    border-radius: 5px;
+}
+
+
+
 
 
 .navbar-nav li a {
@@ -97,6 +107,7 @@ h3 {
 .promo-title h1 {
     font-size: 25px;
     font-weight: 600;
+    font-family: 'Alegreya', serif;
     margin-top: 15px;
     line-height: 1.5;
     padding-top: 25px;
@@ -178,12 +189,12 @@ h3 {
 
 #services .btn-primary {
     box-shadow: none;
-    padding: 8px 25px;
-    margin-top: 30px;
+    padding: 20px 50px;
+    margin-top: 50px;
     border: none;
-    border-radius: 20px;
+    border-radius: 50px;
     background-image: linear-gradient(to right, rgb(165, 124, 124), rgb(41, 142, 209));
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Alegreya', serif;
 }
 
 .open-paragraph {
@@ -226,7 +237,7 @@ h3 {
 
 #about-me ul li {
     margin: 10px 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Alegreya', serif;
 }
 
 .img {
@@ -299,7 +310,7 @@ h3 {
 }
 
 .social-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Alegreya', serif;
     padding-bottom: 20px;
 }
 
@@ -336,7 +347,7 @@ h3 {
     border-radius: 0;
     margin-top: 25px;
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Alegreya', serif;
    
 }
 
@@ -347,7 +358,7 @@ h3 {
     margin-top: 25px;
     background-color: rgb(213, 213, 233);
     color: rgb(40, 39, 39);
-    font-family: 'Playfair Display', serif;
+    font-family: 'Alegreya', serif;
 
 }
 
@@ -395,6 +406,7 @@ hr {
 .promo-title h1 {
     font-size: 50px;
     font-weight: 700;
+    font-family: 'Alegreya', serif;
     margin-top: 50px;
     line-height: 1.5;
     padding-top: 50px;
@@ -419,6 +431,7 @@ hr {
 
 .card {
     width: 100%;
+    max-width: 350px;
     margin: auto;
     padding: 30px 0px 30px 30px;
     border: none !important;
