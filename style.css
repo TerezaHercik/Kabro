@@ -249,6 +249,19 @@ h3, h2 {
     padding: 0;
 }
 
+/* Ceník */
+
+#pricelist {
+    background-color:#E84646;
+    padding: 30px;
+}
+
+/* Konzultace */
+#consultation {
+    background-color: #00C4BE;
+    padding: 30px;
+}
+
 
 /* Reference */
 
@@ -429,6 +442,27 @@ hr {
     height: 100%;
     height: 650px;
     opacity: 100%;
+}
+
+#pricelist {
+    padding: 50px;
+}
+ 
+#pricelist p {
+    padding-top: 50px;
+}
+
+#consultation {
+    padding: 50px;
+}
+
+#consultation p {
+    padding-top: 50px;
+}
+
+#consultation h5 {
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .card {
