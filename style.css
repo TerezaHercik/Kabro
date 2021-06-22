@@ -65,24 +65,21 @@ h3, h2 {
 }
 
 .nav-link:hover {
-    background-color: rgb(115, 149, 150); 
+    background-color: #00C4BE; 
     color: white; 
     border-radius: 5px;
 }
 
-
-
-
-
 .navbar-nav li a {
-    color: gray;
+    color: #00C4BE;
     font-weight: 600;
     float: right;
     text-align: left;
 }
 
+
 .fa-bars {
-    color: gray;
+    color: #E84646;
     font-size: 30px !important;
 } 
 
@@ -387,11 +384,16 @@ hr {
         padding-left: 40px;
     }
 
+    .navbar-nav li a {
+        color: #E84646 !important;
+        font-weight: 400;
+    }
+
     p {
         font-size: 18px;
     }
 
-    li {
+    li {dd
         font-size: 18px;
     }
 
