@@ -181,7 +181,10 @@ h3, h2 {
     font-size: 12px;
 }
 
-
+.card-img img {
+    height: 100px;
+    padding-top: 20px;
+}
 
 
 #services .btn-primary {
@@ -406,7 +409,7 @@ hr {
         font-size: 18px;
     }
 
-    li {dd
+    li {
         font-size: 18px;
     }
 
@@ -444,6 +447,8 @@ hr {
     opacity: 100%;
 }
 
+
+
 #pricelist {
     padding: 50px;
 }
@@ -479,7 +484,7 @@ hr {
 }
 
 .card p {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .card-text {
