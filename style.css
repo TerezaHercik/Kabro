@@ -312,6 +312,13 @@ h3, h2 {
     margin-bottom: 50px; */
 }
 
+#vzp-banner {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .typ {
     margin-top: 50px;
     font-size: 28px;
