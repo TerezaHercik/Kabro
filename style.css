@@ -321,7 +321,7 @@ h3, h2 {
 
 .typ {
     margin-top: 50px;
-    font-size: 28px;
+    font-size: 22px;
 }
 
 
@@ -653,6 +653,11 @@ hr {
 /* .title {
     margin-top: 50px;
 } */
+
+.typ {
+    margin-top: 50px;
+    font-size: 28px;
+}
 
 
 .title::before {
