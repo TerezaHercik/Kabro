@@ -1,0 +1,724 @@
+html { box-sizing: border-box; }
+*, *:after, *:before { box-sizing: inherit; }
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+li {
+    font-size: 14px;
+}
+
+h3, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container {
+    position: relative;
+    overflow: hidden; 
+
+}
+
+#block_terapie {
+    margin: auto;
+    padding: 50px 30px;
+}
+
+.open-paragraph {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+/* Menu + logo */
+
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar {
+    background-color: white;
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 70px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 11px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav ul {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    background-color: #00C4BE; 
+    color: white; 
+    border-radius: 5px;
+}
+
+.navbar-nav li a {
+    color: #00C4BE;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+
+.fa-bars {
+    color: #E84646;
+    font-size: 30px !important;
+} 
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* Banner sekce */
+
+#banner {
+    background-image: url("/images/happy_family_mobile.jpeg");
+    background-size: cover;
+    height: 300px;
+    padding-bottom: 30px;
+}
+
+.text-wrapper h1 {
+    text-align: center;
+    font-size: 8vw;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(118, 228, 228);
+    text-shadow: 2px 1px #2c2b2b;
+    font-weight: 900;
+    padding-top: 100px;
+}
+
+.text-wrapper p {
+    margin-right: 5%;
+    color: rgb(223, 58, 121);
+    text-shadow: 0.5px 0.5px #2c2b2b;
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+.content-wrapper {
+    width: 100%;
+    margin: 0;
+}
+
+.content-wrapper img {
+    width: 100%; 
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+
+
+/* Služby */
+
+#services {
+    padding: 0;
+    background-color: rgb(245, 206, 215);
+}
+
+#block {
+    text-align: justify;
+    max-width: 90%;
+
+}
+
+.services-img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h4 {
+    padding: 5px;
+    margin-top: 25px;
+ 
+}
+
+.title::before {
+    content:'';
+    background-color:#00C4BE;
+    height: 3px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+    transform: translateY(63px);
+
+} 
+
+.card { 
+    width: 70%;
+    color: black;
+    margin: auto;
+    height: auto;
+    border-radius: 50px;
+    background-color: rgb(218, 201, 201) !important;
+
+}
+
+.card-title {
+    background-color: #1DB3AE;
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;    
+    color: black;
+}
+
+.card-text {
+    font-size: 14px; 
+}
+
+
+#services .btn-primary {
+    box-shadow: none;
+    font-size: 20px;
+    padding: 20px 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #E84646, #00C4BE);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* O rodinné terapii */
+
+#terapie {
+    background: #e8d362;
+    height: auto;
+}
+
+#terapie h2 {
+    padding-top: 30px;
+}
+
+#scroll {
+    margin: 0;
+}
+
+#katka-img {
+    margin: 30px auto;
+}
+
+#room-img {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+
+/* O mě */
+
+#about-me {
+    background-color: #A4E8E0;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 8%;
+}
+
+#about-me ul {
+    padding-top: 30px;
+}
+
+#about-me ul li {
+    margin: 10px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img {
+    
+    max-width: 90%;
+    height: auto;
+}
+
+#katka-img {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+#o-me {
+    margin: auto;
+}
+
+/* Ceník */
+
+#pricelist {
+    background-image: url("/images/room_mob.png");
+    padding: 30px;
+    color: black;
+}
+
+#pricelist p {
+    padding-top: 30px;
+}
+
+#cenik {
+    padding-top: 30px;
+}
+
+#tabulka {
+    margin-top: 50px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+}
+
+#vzp-banner {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.typ {
+    margin-top: 50px;
+    font-size: 22px;
+}
+
+
+
+
+
+/* Konzultace */
+#consultation {
+    background-color: rgb(237, 204, 237);
+    padding: 30px;
+   
+}
+
+#mapa {
+    margin: auto;
+    text-align: center  ;
+}
+
+.text-mapa {
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+
+/* Reference */
+/* 
+#references {
+    margin: 100px 0;
+}
+
+#references img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.references {
+    border-left: 2px solid rgb(139,72,38);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.references p {
+    padding-top: 50px;
+}
+
+#references h2 {
+    padding-bottom: 50px;
+}
+
+.user-detail {
+    display: inline-block;
+    font-size: 12px;
+} */
+
+/* Sociální sítě */
+
+/* #social-media {
+    background: rgb(72,139,167);
+    padding: 50px 0;
+}
+
+#social-media p {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+    margin-right: 30px;
+    color: gray;
+} 
+
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+
+.social-title {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+} */
+
+/* Patička */
+#footer {
+    background-color: rgb(8,51,80);
+    color: rgb(238, 242, 245);
+}
+
+#footer h3 {
+    font-size: 25px;
+    padding-top: 30px;
+
+}
+
+#footer h6 {
+    font-weight: 100;
+}
+
+#footer p {
+    font-size: 20px !important;
+}
+
+#footer a {
+    color: white;
+    
+}
+
+.footer-box {
+    padding: 20px;
+    max-height: 300px;
+}
+
+.footer-box img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-color: linear-gradient(to right, rgb(165, 124, 124), rgb(41, 142, 209));
+}
+
+.footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;   
+}
+
+.footer-box .btn-primary {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 20px;
+    margin-top: 25px;
+    background-color: rgb(213, 213, 233);
+    color: rgb(40, 39, 39);
+    font-family: 'Poppins', sans-serif;
+}
+
+hr {
+    background-color: rgb(20, 154, 231);
+
+}
+
+.copyright {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+
+#copyright {
+    background-color: rgb(240, 203, 190);
+    padding-top: 30px;
+}
+
+#footer p {
+    font-size: 15px;
+    padding: 0px;
+    margin: auto;
+}
+
+/* DESKTOP Rozlišení pro zařízení se šířkou minimálně 768px tzn. pro PC*/
+
+@media (min-width: 768px) {
+
+    .navbar-brand img {
+        height: 120px;
+        padding-left: 40px;
+    }
+
+    .navbar-nav li a {
+        color: #E84646 !important;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    .img {
+        max-width: 100%;
+        max-height: 600px;
+    }
+
+    #block {
+        margin: 30px auto;
+    
+    }
+
+
+  
+    /* Banner sekce */
+
+    #banner {
+        background-image: url("/images/happy_family.jpeg");
+        background-size: cover;
+        height: 450px;
+        padding: 30px;
+        color: white;
+    }
+
+.content-wrapper img {
+    width: 100%;
+    opacity: 0.6;
+   background-size: cover;
+   margin-bottom: 50px;
+}
+
+#hero {
+    margin-bottom: 100px;
+}
+
+.text-wrapper h1 {
+    text-align: left;
+    margin-left: 5%;
+    color: rgb(13, 225, 218);
+    text-shadow: 2px 2px #2c2b2b;
+    font-size: 4.5vw;
+    font-weight: 600;
+}
+
+.text-wrapper p {
+    text-align: left;
+    margin-left: 5%;
+    color: rgb(242, 15, 94);
+    text-shadow: 2px 2px #2c2b2b;
+    font-size: 35px;
+    font-weight: 500;
+}
+.content-wrapper img {
+    opacity: 1;
+}
+
+/* Služby */
+.title {
+    margin-top: 50px;
+}
+.card-title {
+    background-color: #1DB3AE;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;    
+    color: black;
+}
+
+
+/* O mě */
+#o-me {
+    margin: auto;
+    max-width: 80%;
+}
+
+/* O terapii */
+
+#block_terapie {
+    overflow: scroll;
+    max-height: 500px;
+    margin: 50px auto;
+    }
+
+#room-img {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+.row {
+    margin: auto;
+}
+
+
+
+/* Ceník */
+#pricelist {
+    padding: 50px;
+    background-image: url("/images/room3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-size: 20px;
+}
+
+/* #pricelist p {
+    font-size: 18px;
+    
+} */
+
+#tabulka {
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+
+   
+}
+
+#tabulka td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#tabulka2 {
+    margin: auto;
+}
+
+#tabulka3 {
+    margin: 30px auto;
+}
+ 
+/* #pricelist p {
+    padding-top: 50px;
+} */
+
+/* .title {
+    margin-top: 50px;
+} */
+
+.typ {
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+
+.title::before {
+    margin-bottom: 5px;
+    width: 200px;
+}
+
+/* Konzultace */
+
+#consultation {
+    padding: 50px;
+}
+
+#consultation p {
+    padding-top: 50px;
+}
+
+#consultation h5 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+/* Služby*/
+
+.open-paragraph {
+    padding-bottom: 40px;
+}
+
+.card {
+    color: black;
+    width: 100%;
+    padding: 0; 
+        height: auto;
+        border-radius: 50px;
+    }
+
+.card-img {
+    margin: auto;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+
+
+.footer {
+    text-align: center;
+}
+
+#footer p {
+    font-size: 25px !important;
+}
+
+#footer h3 {
+    font-size: 30px !important;
+}
+
+
+}
